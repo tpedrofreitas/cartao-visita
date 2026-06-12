@@ -1,0 +1,108 @@
+body {
+  background-color: #f0ece8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Cartão horizontal */
+.cartao {
+  display: flex;
+  width: 500px;
+  height: 180px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Lado esquerdo bege */
+.esquerda {
+  background-color: #0004d4;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Círculo com iniciais */
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a04e0;
+}
+
+/* Lado direito branco */
+.direita {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+/* Nome */
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  margin: 0 0 6px;
+}
+
+/* Cargo */
+.cargo {
+  background-color: #ebe3df;
+  color: #0f0e0e;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+/* Cada linha de contato */
+.linha {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  color: #141414;
+}
+
+/* Ícone */
+.icone {
+  width: 14px;
+  height: 14px;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+/* Cor real de cada ícone */
+.icone-whatsapp {
+  filter: invert(36%) sepia(98%) saturate(400%) hue-rotate(100deg) brightness(95%);
+}
+
+.icone-linkedin {
+  filter: invert(29%) sepia(98%) saturate(400%) hue-rotate(190deg) brightness(90%);
+}
+
+.icone-telefone {
+  filter: invert(36%) sepia(98%) saturate(400%) hue-rotate(100deg) brightness(95%);
+}
+
+.icone-email {
+  filter: invert(30%) sepia(98%) saturate(600%) hue-rotate(350deg) brightness(90%);
+}
