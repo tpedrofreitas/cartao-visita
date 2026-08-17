@@ -1,31 +1,31 @@
 {
-    "name": "Olá Mundo",
-    "short_name": "Olá",
+    "name": "Cartão de Visita - Thiago Freitas",
+    "short_name": "Thiago Freitas",
     "start_url": "./",
     "display": "standalone",
-    "background_color": "#000000",
-    "theme_color": "#ffffff",
-    "description": "Página de Olá Mundo!!!",
+    "background_color": "#f0ece8",
+    "theme_color": "#0004d4",
+    "description": "Cartão de visita de Thiago Freitas",
     "lang": "pt-BR",
     "icons": [
         {
-            "src": "imagens/ola-mundo-128.png",
-            "sizes": "128x128",
-            "type": "image/png"
-        },
-        {
-            "src": "imagens/ola-mundo-192.png",
+            "src": "imagem/icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "imagens/ola-mundo-256.png",
-            "sizes": "256x256",
+            "src": "imagem/icon-512.png",
+            "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "imagens/ola-mundo-512.png",
-            "sizes": "512x512",
+            "src": "imagem/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "imagem/icon-256.png",
+            "sizes": "256x256",
             "type": "image/png"
         }
     ]
